@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Dulce Momento</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: white;
+        }
+        
+        h1{
+            color: rgb(221, 101, 121);
+            text-align: center;
+        }
+            
+         .izquierda{
+            color: green;
+        }
+
+        #titulo{
+            color: rgb(187, 53, 127);
+            text-align: center;
+        }
+
+        #Pasteles{
+            color: rgb(179, 39, 97);
+            text-align: center;
+            background-color: papayawhip
+        }
+
+       
+        .center{
+            color: black;
+        }
+
+        p.izquierda{
+            text-decoration: underline;
+            text-align: left;
+        }
+
+        .contraste{
+            background-color: peachpuff;
+        }
+
+        h1, h2, p{
+            font-weight: bold;
+        }
+
+        .rectangulo{
+            width: 300px;
+            height: 70px;
+            background: peachpuff;
+        }
+
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            padding: 90px 20 px 0;
+        }
+
+        .header{
+            background-color: peachpuff;
+            height: 80px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .nav{
+            display: flex;
+            justify-content: space-between;
+
+            max-width: 992px;
+            margin: 0 auto;
+        }
+
+        .nav-link{
+            color: brown;
+            text-decoration: none;
+        }
+
+        .comprar:hover{
+            background-color: papayawhip;
+            transition: .5s;
+        }
+
+        .comprar{
+            font-size: 30px;
+            font-weight: bold;
+            padding: 0 40px;
+            line-height: 80px;
+        }
+
+        .nav-menu{
+            display: flex;
+            margin-right: 40px;
+            list-style: none;
+        }
+
+        .nav-menu-item{
+            font-size: 18px;
+            margin: 0 10px;
+            line-height: 80px;
+            text-transform: uppercase;
+            width: max-content;
+        }
+
+        .nav-menu-link{
+            padding: 8px 12px;
+            border-radius: 3px;
+        }
+
+        .nav-menu-link:hover{
+            background-color: papayawhip;
+            transition: .5s;
+        }
+        
+        .Bienvenida{
+            font-size: 30px;
+            padding: 0 110px;
+            line-height: 220px;
+            text-transform: uppercase;
+        }
+
+        .div{
+            width: 100%;
+        }
+
+        .logo{
+            margin: auto;
+            display: block;
+        }
+
+        .coco{
+            margin: auto;
+            display: block;
+        }
+
+        .correo{
+            font-size: 13px;
+            margin: 0 10px;
+            line-height: 80px;
+            margin: auto;
+            color: gray 
+        }
+
+        .contacto{
+            display: flex;
+            justify-content: space-between;
+
+            max-width: 992px;
+            margin: 0 auto;
+        }
+        
+        .contacto-op{
+            display: flex;
+            margin-right: 40px;
+            list-style: none;
+        }
+
+        .contacto-op-item{
+            font-size: 18px;
+            margin: 0 10px;
+            line-height: 80px;
+            text-transform: uppercase;
+            width: max-content;
+        }
+
+        .contacto-op-link{
+            padding: 8px 12px;
+            border-radius: 3px;
+        }
+
+        .contacto-op-link:hover{
+            background-color: papayawhip;
+            transition: .5s;
+        }
+
+        .galeria-pasteles{
+            margin: 5 px 10 px;
+            box-shadow: 0 4px 8px palevioletred 0 6px 20px 0 purple;
+            float: left;
+            width: 350px;
+        }
+
+        .div.galeria img{
+            width: 100%;
+            height: auto;
+        }
+
+        .galeria-pasteles:hover{
+            border: 1px solid lightcoral;
+            transform: rotate(-1deg)
+        }
+
+        .pie{
+            text-align: center;
+            text-shadow: 2px 2px 5px plum;
+            padding: 10px;
+        }
+</style>
+
+</head>
+
+
+
+
+
+   
+<header class="header">
+<nav class="nav">
+        <a href="#" class="comprar nav-link">Comprar</a>
+    <ul class="nav-menu">
+      <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link"><span>Inicio</span></a></li>
+      <ul class="nav-menu"></ul>
+      <li class="nav-menu-item"><a href="#" class="nav-menu-link nav-link"><span>Pasteles</span></a></li>
+      <ul class="nav-menu"></ul>
+      <li class="nav-menu-item"><a href="#"class="nav-menu-link nav-link"><span>Pastel personalizado</span></a></li>
+    </ul>
+  </nav>
+</header>
+<div>
+<h1 class="Bienvenida">¡Bienvenidos a su <i>Dulce Momento</i>!</h1>
+<div>
+<img class="logo" src="Logo.png" alt="Dulce Momento" width="350px" height="350px">
+</div>
+    <h2 id="titulo" class="center">¡Haz realidad el pastel que tienes en mente!</h2></br>
+</head>
+     <!-- ======= Menu Section ======= -->
+     <body>
+          <div class="galeria">
+            <h2 id="Pasteles" class="center"></br><i>¡Los más vendidos!</i></br></br></h2></br></br>
+          </div>
+  
+              <div class="galeria-pasteles">
+                <div class="Pastel">
+                <img src="Pasteles/Redvelvet.jpg"  alt="" width="300px" height="250px">
+                </div>
+               <div class="pie">
+                <p>Pastel red velvet</p>
+                <p>Desde $280</p>
+               </div> 
+            </div>
+       
+            
+            <div class="galeria-pasteles">
+                <div class="Pastel">
+                <img src="Pasteles/Chocolate.jpg"  alt=""  width="300px" height="250px">
+                </div>
+               <div class="pie">
+                <p>Pastel de chocolate</p>
+                <p>Desde $190</p>
+               </div> 
+            </div>
+        </br>
+        
+            
+            <div class="galeria-pasteles">
+                <div class="Pastel">
+                <img src="Pasteles/Piñon.jpg"  alt=""  width="300px" height="250px">
+                </div>
+               <div class="pie">
+                <p>Pastel de piñón</p>
+                <p>Desde $280</p>
+               </div> 
+            </div>
+        
+            
+            <div class="galeria-pasteles">
+                <div class="Pastel">
+                <img src="Pasteles/Frutosrojos.jpg" alt=""  width="300px" height="250px">
+                </div>
+               <div class="pie">
+                <p>Pastel de frutos rojos</p>
+                <p>Desde $290</p>
+               </div> 
+            </div>
+                
+            <div class="galeria-pasteles">
+                <div class="Pastel">
+                <img src="Pasteles/Vainilla.jpg" alt=""  width="300px" height="250px">
+                </div>
+               <div class="pie">
+                <p>Pastel de vainilla</p>
+                <p>Desde $190</p>
+               </div> 
+            </div>
+
+            <div class="galeria-pasteles">
+                <div class="Pastel">
+                <img src="Pasteles/Coco.png" alt=""  width="300px" height="250px">
+                </div>
+               <div class="pie">
+                <p>Pastel de coco</p>
+                <p>Desde $220</p>
+               </div> 
+            </div>
+         
+        </div>
+    <!-- End Menu Section -->
+  <div>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+    <h3 class="center contraste"></br></br>Recibe promociones en tu correo </br>
+        <label class="correo" for="correo1">Ingresa tu correo (example@gmail.com)</label>
+        <input type="email" id="correo1" name="correo1"><br>
+    <nav class="contacto">
+    <ul class="contacto-op">
+      <li class="contacto-op-item"><a href="#" class="contacto-op-link nav-link"><span>Preguntas frecuentes</span></a></li>
+      <ul class="contacto-op"></ul>
+      <li class="contacto-op-item"><a href="#" class="contacto-op-link nav-link"><span>Términos y condiciones</span></a></li>
+      <ul class="contacto-op"></ul>
+      <li class="contacto-op-item"><a href="#"class="contacto-op-link nav-link"><span>Facturación</span></a></li>
+    </ul>
+  </nav>
+</h3>
+</div>
+</body>
+</html>
