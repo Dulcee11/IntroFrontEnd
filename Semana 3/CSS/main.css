@@ -1,0 +1,19 @@
+:root {
+    --theme-color: white;
+    --primary-color: blue;
+    --secundary-color: gray; 
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: beige;
+    --menu-mobile-background-color: purple;
+}
+
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: var(--theme-color);
+color: var(--text-color);
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
